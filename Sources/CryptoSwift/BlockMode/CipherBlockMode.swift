@@ -46,7 +46,7 @@ public enum CipherBlockMode {
     var options: BlockModeOptions {
         switch (self) {
         case .CBC:
-            return [.InitializationVectorRequired, .PaddingRequired]
+            return .InitializationVectorRequired
         case .CFB:
             return .InitializationVectorRequired
         case .CTR:

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = "Cryptography functions and helpers for Swift implemented in Swift. SHA, MD5, PBKDF2, CRC, Poly1305, HMAC, ChaCha20, Rabbit, AES."
   s.homepage     = "https://github.com/krzyzanowskim/CryptoSwift"
   s.license      = {:type => "Attribution License", :file => "LICENSE"}
-  s.source       = { :git => "https://github.com/krzyzanowskim/CryptoSwift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/laurivers/CryptoSwift.git", :tag => "#{s.version}" }
   s.authors      = {'Marcin Krzyżanowski' => 'marcin@krzyzanowskim.com'}
   s.social_media_url   = "https://twitter.com/krzyzanowskim"
   s.ios.platform  = :ios, '8.0'
